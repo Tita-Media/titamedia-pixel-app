@@ -1,7 +1,7 @@
 {
   "vendor": "titamedia",
   "name": "titamedia-pixel",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "title": "TitaMedia Pixel",
   "description": "Inyecta scripts personalizados (ej. Convert) en el <head> de todas las páginas de la tienda VTEX.",
   "builders": {
@@ -14,7 +14,9 @@
       "email": "soporte@titamedia.com",
       "url": "https://titamedia.com"
     },
-    "availableCountries": ["*"]
+    "availableCountries": [
+      "*"
+    ]
   },
   "settingsSchema": {
     "title": "TitaMedia Pixel",

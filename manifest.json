@@ -1,0 +1,23 @@
+{
+  "vendor": "titamedia",
+  "name": "titamedia-pixel",
+  "version": "0.1.0",
+  "title": "TitaMedia Pixel",
+  "description": "Inyecta scripts personalizados (ej. Convert) en el <head> de todas las páginas de la tienda VTEX.",
+  "builders": {
+    "pixel": "0.x",
+    "docs": "0.x"
+  },
+  "settingsSchema": {
+    "title": "TitaMedia Pixel",
+    "type": "object",
+    "properties": {
+      "convertScript": {
+        "title": "Script de Convert",
+        "description": "Pega aquí el script completo (incluyendo las etiquetas <script>) que se inyectará en el <head> de todas las páginas de la tienda.",
+        "type": "string"
+      }
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}
